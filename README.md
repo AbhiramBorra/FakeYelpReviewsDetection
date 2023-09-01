@@ -1,4 +1,4 @@
-# FakeAmazonReviewsDetection
+# FakeReviewsDetection
 Dataset: https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products/code?select=1429_1.csv
 
 The dataset provided by Datafinity on Kaggle is a list of over 34,000 consumer reviews for Amazon products.
