@@ -1,5 +1,6 @@
 # FakeReviewsDetection
 Dataset: https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products/code?select=1429_1.csv
+Yelp reviews dataset: https://www.kaggle.com/datasets/abidmeeraj/yelp-labelled-dataset
 
 The dataset provided by Datafinity on Kaggle is a list of over 34,000 consumer reviews for Amazon products.
 For the preprocessing stage we are using TF-IDF to process the text into numbers. Next, for our initial model we will run DBSACAN on 3 dimensions to identify the real and fake reviews cluster.
