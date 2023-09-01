@@ -1,16 +1,53 @@
-# FakeReviewsDetection
-Dataset: https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products/code?select=1429_1.csv
-Yelp reviews dataset: https://www.kaggle.com/datasets/abidmeeraj/yelp-labelled-dataset
+# FakeAmazonReviewsDetection
 
-The dataset provided by Datafinity on Kaggle is a list of over 34,000 consumer reviews for Amazon products.
-For the preprocessing stage we are using TF-IDF to process the text into numbers. Next, for our initial model we will run DBSACAN on 3 dimensions to identify the real and fake reviews cluster.
-During the preprocessing stage, we dropped any data that didn't add any value, and cleared the rest of the data by removing any null entries.
+Dataset:
+https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products/code?select=1429_1.csv 
+The dataset provided by Datafinity on Kaggle is a list of over 35,000 consumer reviews for Amazon products.
+
+https://www.kaggle.com/datasets/abidmeeraj/yelp-labelled-dataset
+The dataset provided by Abidmeeraj on Kaggle is a list of over 35,000 yelp consumer reviews about hotels located in North America. 
+
+
+Preprocessing : 
+Text to numerical conversion - For the preprocessing stage we are using TF-IDF to process the text into numbers.
 Finally, we ran the TF-IDF metric, which scans through text and calculates the frequency of appearance of words within the text during the TF stage and measures global importance during the IDF stage. 
-Our feature for "rating" is straightforward, therefore we won't do any preprocessing. For our "recommended" feature, we'll convert into binary, 1 for 'yes' and 0 for 'No'.
 
-Group members:                                                                                                                                                    
+Data Cleaning - During the preprocessing stage, we dropped any data that didn't add any value, and cleared the rest of the data by removing any null entries.
+
+Feature Engineering - We expanded characteristics through creating novel features from those that already exist, primarily through modifying data using polynomial, logarithmic, or feature multiplication operations.
+
+
+Model Builing:
+For our initial model we will run neural network based algorithm on 3 dimensions with the major goal to identify the real and fake reviews cluster within the dataset.
+
+
+Evaluation:
+We evaluate the performance of our model using accuracy and other metrics by employing the subsequent stages:
+
+Training versus Test Error Comparison - In order to determine the model's performance and accuracy capabilities, we analyze the training and test errors.
+
+Model Fitting Analysis - In order to determine insights into its bias and variance, we examine the models's positioning relative to the underfitting/overfitting graph. 
+
+
+Features : 
+Our feature for "rating" is straightforward, therefore we won't do any preprocessing. 
+However, for our "recommended" feature, for simplification of rpresentation and analysis we have converted it into binary, 1 for 'yes' and 0 for 'No'.
+
+
+Result :
+
+
+Conclusion : 
+Our research seeks to offer an approach for detecting false Yelp reviews. We anticipate that our attempts will contribute to strengthen customer trust in hotel management. 
+
+
+Contributions :  
+Group members -                                                                                                                                                    
 Abhi Borra,	aborra@ucdavis.edu                                                                                                            
 Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
-Jaryd Bones,	jbones@ucdavis.edu                                                                                                                        
+Jaryd Bones,	jbones@ucdavis.edu                                                                                                                 
 Jose Navarro,	janavarro@ucdavis.edu                                                                                                             
 Zhixuan Qiu,	zxqiu@ucdavis.edu
+
+
+
