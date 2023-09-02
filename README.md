@@ -30,6 +30,18 @@ Features :
 Our feature for "rating" is straightforward, therefore we won't do any preprocessing. 
 However, for our "recommended" feature, for simplification of rpresentation and analysis we have converted it into binary, 1 for 'yes' and 0 for 'No'.
 
+First model evaluate:
+Epoch 48/50
+71/71 [==============================] - 2s 31ms/step - loss: 0.2151 - accuracy: 0.9278
+Epoch 49/50
+71/71 [==============================] - 3s 41ms/step - loss: 0.1917 - accuracy: 0.9363
+Epoch 50/50
+71/71 [==============================] - 2s 28ms/step - loss: 0.2292 - accuracy: 0.9189
+
+Training MSE: 0.07677777777777778
+Testing MSE: 0.1
+From the MSE data above, we think the first model is a bit overfit because the testing MSE is 25% higher than the training MSE, the training error is lower.
+
 
 Result :
 
