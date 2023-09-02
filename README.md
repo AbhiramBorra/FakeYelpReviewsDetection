@@ -29,7 +29,7 @@ Model Fitting Analysis - In order to determine insights into its bias and vari
 
 Features : 
 Our feature for "rating" is straightforward, therefore we won't do any preprocessing. 
-However, for our "recommended" feature, for simplification of rpresentation and analysis we have converted it into binary, 1 for 'yes' and 0 for 'No'.
+However, for our "recommended" feature, for simplification of representation and analysis we have converted it into binary, 1 for 'yes' and 0 for 'No'.
 
 First model evaluate:
 Epoch 48/50
@@ -42,9 +42,6 @@ Epoch 50/50
 Training MSE: 0.07677777777777778                                                                                                                                                                                                    
 Testing MSE: 0.1                                                                                                                                                                                             
 From the MSE data above, we think the first model is a bit overfit because the testing MSE is 25% higher than the training MSE, the training error is lower.
-
-
-Result :
 
 
 Conclusion : 
