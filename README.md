@@ -38,7 +38,7 @@ Epoch 49/50
 Epoch 50/50
 71/71 [==============================] - 2s 28ms/step - loss: 0.2292 - accuracy: 0.9189
 
-Training MSE: 0.07677777777777778
+Training MSE: 0.07677777777777778                                                                                                                                                                                                    
 Testing MSE: 0.1                                                                                                                                                                                             
 From the MSE data above, we think the first model is a bit overfit because the testing MSE is 25% higher than the training MSE, the training error is lower.
 
