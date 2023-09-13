@@ -116,8 +116,17 @@ Libraries:
         activation functions, and optimizers.
 
 
+## **Conclusion :** 
 
-Contributions :  
+We embarked upon this research project with the goal of enhancing the credibility of reviews posted on Yelp primarily concentrating on identifying the appearance of fraudulent reviews. The YelpReviews.ipynb file presents our most recent endeavors, demonstrating a stepping stone towards our dedication to improving the discipline of reviewing identification of fraud, ensuring the integrity of online reviews.
+
+Moreover, during the course of this project, we carried out multiple essential measures, among which was text-to-numerical translation leveraging TF-IDF during preprocessing, extensive data cleaning, plus distinctive feature engineering, culminating in the design and building of our initially developed neural network-based model. Each phase involving preparing the data and examination were significant, and our entire methodical approach encompassed data loading, exploration, and preprocessing. Our original model, backed with neural network-based methods, performed to cluster authentic and false reviews within the collection of reviews. We examined the performance of this model's predictions using multiple parameters, notably accuracy and Mean Squared Error (MSE).
+
+Furthermore, as we contemplate our results, we acknowledge the existence of an overfitting problem that plagues our initial prediction. In the foreseeable future, we intend to investigate enhanced methodologies and alternative approaches to effectively alleviate this particular problem. Moreover, integrating customer-generated data analysis and user behavior analysis additionally opens fresh novel opportunities for research.
+
+In addition, the outcome of our endeavors demonstrates the true value of ongoing research studies and development within the discipline of reviewing identification of fraud. The project proved to be an invaluable educational opportunity for us, and we sincerely anticipate that additional investigations and research concerning this topic will eventually give rise towards a more forthcoming and trustworthy online rating industry that's advantageous for customers as well as business owners. Overall, we envision that our efforts will ultimately strengthen confidence among clients in hotel management.
+
+## **Contributions :**   
 Group members -                                                                                                                                                    
 Abhi Borra,	aborra@ucdavis.edu                                                                                                            
 Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
