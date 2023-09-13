@@ -48,13 +48,13 @@ Conclusion :
 Our research seeks to offer an approach for detecting false Yelp reviews. We anticipate that our attempts will contribute to strengthen customer trust in hotel management. 
 
 
-**WRITE UP**      
+# **WRITE UP**      
 
-Introduction:              
+## Introduction:              
 
 Yelp is a popular online platform and mobile app primarily used for discovering businesses that can include restaurants, cafes, bars, hotels, spas, salons, boutiques, and more. Yelp provides recommendations based on a user's location and preferences, users can read, rate, and write reviews about the quality of service, products, ambiance, and overall customer experience. These ratings and reviews are important for customers making their decisions. Yelp has more than 178 million unique visitors monthly across mobile and desktop in September 2018. USA visitors account for 90% of all visitors. It's important to note that while Yelp strives to maintain the integrity of its review system, not all reviews are necessarily authentic. The fake reviews can mislead users by providing inaccurate information about businesses, they may end up with a less-than-optimal experience and wasted time and money. Also, Yelp will lose the trust of its users. We decided to do the project by making a machine-learning model to find fake Yelp reviews. The model aims to help users to get real information and Yelp platforms maintain trust, fairness, and transparency in their review systems. The following part will go deep in about our model, describing every aspect of our model.
 
-**Methods:** 
+## **Methods:** 
 
 Libraries: 
 
@@ -68,7 +68,7 @@ Libraries:
       Keras: Neural Network building
       Sklearn: Hyperparameter tuning and model evaluation
 
-**Data Preparation and Exploration** 
+### **Data Preparation and Exploration** 
      
 **Data Loading**
 
@@ -86,7 +86,7 @@ Libraries:
           We employed the scikit-learn library's TfidfVectorizer class to convert text data(reviews) into TF-IDF features for machine learning. This process transformed the textual information into a matrix of TF-IDF characteristics
           suitable for analysis.
       
-**Machine Learning Models**
+### **Machine Learning Models**
       	
 **Neural Network Model (Initial Model)**
 
@@ -101,7 +101,7 @@ Libraries:
  
         The neural network model was trained for 50 epochs on the training data. We evaluated the model's performance by calculating the Mean Squared Error (MSE) for both the training and testing datasets.
       
-**Hyperparameter Tuning**
+### **Hyperparameter Tuning**
 
         We conducted hyperparameter tuning to optimize the neural network model's performance. Using GridSearchCV, we explored different combinations of hyperparameters such as the number of hidden layers, number of nodes per layer,
         activation functions, and optimizers.
