@@ -86,7 +86,7 @@ Libraries:
       
 **Data Preprocessing**
 
-**Data cleaning**
+**Data Cleaning**
 
           Based on the relations discovered during Data Exploration, we used the pandas library to manipulate the data set and drop columns. 
           We employed the scikit-learn library's TfidfVectorizer class to convert text data(reviews) into TF-IDF features for machine learning. This process transformed the textual information into a matrix of TF-IDF characteristics
@@ -115,6 +115,31 @@ Libraries:
         We conducted hyperparameter tuning to optimize the neural network model's performance. Using GridSearchCV, we explored different combinations of hyperparameters such as the number of hidden layers, number of nodes per layer,
         activation functions, and optimizers.
 
+## **Results :** 
+
+### **Data Preparation and Exploration** 
+     
+**Data Loading**
+
+**Data Exploration**
+
+**Data Preprocessing**
+
+**Data Cleaning**
+
+### **Machine Learning Models**
+      	
+**Neural Network Model (Initial Model)**
+
+**Train-Test Split**
+
+ **Model Training and Evaluation**
+
+![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/7884a30e-4688-4764-846c-9d9e071f72d6)
+
+![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/c418874d-ecbd-4102-abe9-a3eaaf9d07fa)
+
+ ### **Hyperparameter Tuning**
 
 ## **Conclusion :** 
 
