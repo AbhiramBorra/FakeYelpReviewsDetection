@@ -31,7 +31,7 @@ Features :
 Our feature for "rating" is straightforward, therefore we won't do any preprocessing. 
 However, for our "recommended" feature, for simplification of representation and analysis we have converted it into binary, 1 for 'yes' and 0 for 'No'.
 
-First model evaluate:
+First model evaluate:   
 Epoch 48/50
 71/71 [==============================] - 2s 31ms/step - loss: 0.2151 - accuracy: 0.9278
 Epoch 49/50
