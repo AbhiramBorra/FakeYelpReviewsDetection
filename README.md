@@ -73,7 +73,8 @@ Libraries:
 **Data Loading**
 
         We began by loading our dataset titled "Labelled Yelp Dataset.csv" from Google Drive into a pandas DataFrame.
-      
+<img width="500" alt="Screen Shot 2023-09-13 at 11 38 29 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/3dd415bb-b5c2-49ec-86ae-292213c75d55">
+
 **Data Exploration**
 
         We employed Matplotlib and Seaborn libraries to visualize the data.
