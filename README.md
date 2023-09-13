@@ -77,6 +77,11 @@ Libraries:
 **Data Exploration**
 
         We employed Matplotlib and Seaborn libraries to visualize the data.
+
+<img width="500" alt="Screen Shot 2023-09-13 at 11 32 40 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/72249eed-3a5f-4a37-9079-6b412af40753">
+        
+<img width="500" alt="Screen Shot 2023-09-13 at 11 32 51 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/47e682a6-8179-4309-afb3-2053465660d3">
+
       
 **Data Preprocessing**
 
@@ -92,7 +97,10 @@ Libraries:
 
         We constructed a neural network model using Keras. The model’s input layer had 20 neurons and the ‘relu’ activation function. The model included 2 dense hidden layers with neurons of 75 and 15 and the ‘relu’ activation
         function. The final layer used a single node and the ‘sigmoid’ activation function for binary classification, and we utilized stochastic gradient descent (SGD) optimization.
-      
+
+<img width="500" alt="Screen Shot 2023-09-13 at 11 33 13 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/2b10ceec-7880-4d23-b377-7f1ee04bfb25">
+
+        
 **Train-Test Split**
 
         We divided the dataset into training and testing sets using the train_test_split function. 90% of the data was allocated for training the machine learning model, and the remaining 10% was used to evaluate its performance.
