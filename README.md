@@ -48,6 +48,51 @@ Conclusion :
 Our research seeks to offer an approach for detecting false Yelp reviews. We anticipate that our attempts will contribute to strengthen customer trust in hotel management. 
 
 
+**WRITE UP**
+
+**Methods:** 
+	Libraries: 
+      Pandas: Used to load the data set, and manipulate it
+      NumPy: Numerical operations
+      Matplotlib: Data visualization during preprocessing
+      Seaborn: Data visualization during preprocessing
+      Ntlk: Preprocessing textual data
+      BeautifulSoup: Process HTML-based data
+      TF-IDF Vectorizor: Conver textual data into numerical data
+      Keras: Neural Network building
+      Sklearn: Hyperparameter tuning and model evaluation
+
+**Data Preparation and Exploration** 
+      **Data Loading**
+        We began by loading our dataset titled "Labelled Yelp Dataset.csv" from Google Drive into a pandas DataFrame.
+      
+      **Data Exploration**
+        We employed Matplotlib and Seaborn libraries to visualize the data.
+      
+      **Data Preprocessing**
+        **Data cleaning**
+          Based on the relations discovered during Data Exploration, we used the pandas library to manipulate the data set and drop columns. 
+          We employed the scikit-learn library's TfidfVectorizer class to convert text data(reviews) into TF-IDF features for machine learning. This process transformed the textual information into a matrix of TF-IDF characteristics
+          suitable for analysis.
+      
+      **Machine Learning Models**
+      	
+      **Neural Network Model (Initial Model)**
+        We constructed a neural network model using Keras. The model’s input layer had 20 neurons and the ‘relu’ activation function. The model included 2 dense hidden layers with neurons of 75 and 15 and the ‘relu’ activation
+        function. The final layer used a single node and the ‘sigmoid’ activation function for binary classification, and we utilized stochastic gradient descent (SGD) optimization.
+      
+      **Train-Test Split**
+        We divided the dataset into training and testing sets using the train_test_split function. 90% of the data was allocated for training the machine learning model, and the remaining 10% was used to evaluate its performance.
+      
+      **Model Training and Evaluation**
+        The neural network model was trained for 50 epochs on the training data. We evaluated the model's performance by calculating the Mean Squared Error (MSE) for both the training and testing datasets.
+      
+      **Hyperparameter Tuning**
+        We conducted hyperparameter tuning to optimize the neural network model's performance. Using GridSearchCV, we explored different combinations of hyperparameters such as the number of hidden layers, number of nodes per layer,
+        activation functions, and optimizers.
+
+
+
 Contributions :  
 Group members -                                                                                                                                                    
 Abhi Borra,	aborra@ucdavis.edu                                                                                                            
