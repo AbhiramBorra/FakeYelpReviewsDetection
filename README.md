@@ -169,13 +169,19 @@ In addition, the outcome of our endeavors demonstrates the true value of ongoing
 
 ## **Contributions :**   
 Group members -                                                                                                                                                    
-Abhi Borra,	aborra@ucdavis.edu                                                                                                            
+Abhi Borra,	aborra@ucdavis.edu                                                                                                           
+>Contribution:
+
 Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
-Jaryd Bones,	jbones@ucdavis.edu
+>Contribution:
 
-     Contribution: data preprocessing, built initial neural net (before optimizations), histogram, pairplot, confusion matrix, selected dataset
+Jaryd Bones,	jbones@ucdavis.edu:
+>Contribution: data preprocessing, built initial neural net (before optimizations), histogram, pairplot, confusion matrix, selected dataset
+
 Jose Navarro,	janavarro@ucdavis.edu                                                                                                             
-Zhixuan Qiu,	zxqiu@ucdavis.edu
+>Contribution:
 
+Zhixuan Qiu,	zxqiu@ucdavis.edu
+>Contribution:
 
 
