@@ -1,6 +1,4 @@
-# FakeYelpReviewsDetection
-We are changing the project dataset from Amazon reviews to Yelp reviews. The goal of our project is still the same to detect fake reviews. The YelpReviews.ipynb file has our latest work.                                                                                     
-                                                                                                                                      
+# FakeYelpReviewsDetection                                                                                                                                      
 Dataset:
 https://www.kaggle.com/datasets/abidmeeraj/yelp-labelled-dataset                                                                                                                                                                          
 The dataset provided by Abidmeeraj on Kaggle is a list of over 35,000 Yelp consumer reviews about hotels located in North America. 
