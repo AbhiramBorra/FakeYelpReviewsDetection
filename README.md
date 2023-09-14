@@ -183,7 +183,7 @@ Documentation Writer and Project Manager
 Jaryd Bones,
 Coder and Documentation Writer,
 
->Contribution: data preprocessing, built initial neural net (before optimizations), histogram, pairplot, confusion matrix, selected dataset
+>Contribution: Handled data preprocessing, Built initial neural net (before optimizations), Handled model evaluation, Created histogram, Created pairplot, Created confusion matrix, Selected dataset
 
 Jose Navarro,
 Coder and ML Project Collaboration,
