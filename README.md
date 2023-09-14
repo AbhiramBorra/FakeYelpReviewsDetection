@@ -80,7 +80,7 @@ Libraries:
 
         We employed Matplotlib and Seaborn libraries to visualize the data with histograms and a pairplot.
       
-**Data Preprocessing**
+### **Data Preprocessing**
 
 **Data Cleaning**
 
@@ -126,7 +126,7 @@ Libraries:
 
        As shown in the histogram above, real reviews have a more even spread in the frequency of ratings, whereas fake reviews had the tendency to be either extremely positive or extremely negative, but not average.
 
-**Data Preprocessing**
+### **Data Preprocessing**
 
 **Data Cleaning**
 
