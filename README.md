@@ -182,7 +182,7 @@ Jaryd Bones,	jbones@ucdavis.edu:
 >Contribution: data preprocessing, built initial neural net (before optimizations), histogram, pairplot, confusion matrix, selected dataset
 
 Jose Navarro,	janavarro@ucdavis.edu                                                                                                             
->Contribution:
+>Contribution: Cleaned the text of reviews, helped in debugging
 
 Zhixuan Qiu,	zxqiu@ucdavis.edu
 >Contribution: data exploration, evaluated the first model, heatmap, regularization
