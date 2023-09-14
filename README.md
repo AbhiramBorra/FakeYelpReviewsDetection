@@ -1,4 +1,5 @@
-# FakeYelpReviewsDetection                                                                               
+# FakeYelpReviewsDetection
+We are changing the project dataset from Amazon reviews to Yelp reviews. The goal of our project is still the same to detect fake reviews. The YelpReviews.ipynb file has our latest work.                                                                                     
                                                                                                                                       
 Dataset:
 https://www.kaggle.com/datasets/abidmeeraj/yelp-labelled-dataset                                                                                                                                                                          
@@ -78,11 +79,6 @@ Libraries:
 **Data Exploration**
 
         We employed Matplotlib and Seaborn libraries to visualize the data with histograms and a pairplot.
-
-<img width="500" alt="Screen Shot 2023-09-13 at 11 32 40 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/72249eed-3a5f-4a37-9079-6b412af40753">
-        
-<img width="500" alt="Screen Shot 2023-09-13 at 11 32 51 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/47e682a6-8179-4309-afb3-2053465660d3">
-
       
 **Data Preprocessing**
 
@@ -118,9 +114,9 @@ Libraries:
      
 **Data Loading**
 
-![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/2929b4c8-c5c0-4eb8-8a34-b1b37d0fd475)
+![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/a0611d91-467d-4214-8307-8e7839af72df)
 
-      Loading the data gave use the dataframe depicted above
+       The image above displays our dataframe before any preprocessing is shown above.
 
 **Data Exploration**
 
@@ -134,19 +130,19 @@ Libraries:
 
 **Data Cleaning**
 
-![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/de7d7229-ea65-4cf7-9b59-c08a1197e7aa)
+![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/2913ad4e-4440-45ae-acf7-1fff3200c403)
 
-      After preprocessing our data it looked as it does above.
+      The image above displays our dataframe after dropping unneeded columns
 
 ### **Machine Learning Models**
       	
 **Neural Network Model (Initial Model)**
 
-       The initial model had a starting accuracy of 0.8669 at the end of the first epoch. During the twenty-third epoch, the model hit its lowesest accuracy of 0.7722. At the end of the final epoch, the model had an accuracy of 0.8787 and a loss of 0.5547.
-
+       Our initial model had an accuracy of 0.8669 after the first epoch. The accuracy of the model then fell to 0.7722 after the twenty-third epoch. The model had a final accuracy of 0.8787 and loss of 0.5547
+ 
 **Train-Test Split**
 
-       Performing a train-test split gave us two data sets. 90% of the data went into the training set, and the remaining 10% went into the testing set.
+      After performing a train-test split, our data was broken up into a training and a testing set. Our training set contained 90% of our data and our testing set contained the remaining 10%
 
  **Model Training and Evaluation**
 
@@ -177,4 +173,7 @@ Abhi Borra,	aborra@ucdavis.edu
 Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
 Jaryd Bones,	jbones@ucdavis.edu                                                                                                                 
 Jose Navarro,	janavarro@ucdavis.edu                                                                                                             
-Zhixuan Qiu,	zxqiu@ucdavis.edu. Work in part of the codes(data exploration and processing), communicated with TA.
+Zhixuan Qiu,	zxqiu@ucdavis.edu
+
+
+
