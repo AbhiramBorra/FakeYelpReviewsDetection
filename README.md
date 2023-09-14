@@ -73,11 +73,12 @@ Libraries:
 **Data Loading**
 
         We began by loading our dataset titled "Labelled Yelp Dataset.csv" from Google Drive into a pandas DataFrame.
+        
 <img width="500" alt="Screen Shot 2023-09-13 at 11 38 29 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/3dd415bb-b5c2-49ec-86ae-292213c75d55">
 
 **Data Exploration**
 
-        We employed Matplotlib and Seaborn libraries to visualize the data.
+        We employed Matplotlib and Seaborn libraries to visualize the data with histograms and a pairplot.
 
 <img width="500" alt="Screen Shot 2023-09-13 at 11 32 40 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/72249eed-3a5f-4a37-9079-6b412af40753">
         
@@ -98,9 +99,6 @@ Libraries:
 
         We constructed a neural network model using Keras. The model’s input layer had 20 neurons and the ‘relu’ activation function. The model included 2 dense hidden layers with neurons of 75 and 15 and the ‘relu’ activation
         function. The final layer used a single node and the ‘sigmoid’ activation function for binary classification, and we utilized stochastic gradient descent (SGD) optimization.
-
-<img width="500" alt="Screen Shot 2023-09-13 at 11 33 13 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/2b10ceec-7880-4d23-b377-7f1ee04bfb25">
-
         
 **Train-Test Split**
 
@@ -123,6 +121,12 @@ Libraries:
 
 **Data Exploration**
 
+<img width="500" alt="Screen Shot 2023-09-13 at 11 32 51 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/47e682a6-8179-4309-afb3-2053465660d3">
+
+<img width="500" alt="Screen Shot 2023-09-13 at 11 32 40 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/72249eed-3a5f-4a37-9079-6b412af40753">
+
+       As shown in the histogram above, real reviews have a more even spread in the frequency of ratings, whereas fake reviews had the tendency to be either extremely positive or extremely negative, but not average.
+
 **Data Preprocessing**
 
 **Data Cleaning**
@@ -140,7 +144,12 @@ Libraries:
 ![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/c418874d-ecbd-4102-abe9-a3eaaf9d07fa)
 
  ### **Hyperparameter Tuning**
+ 
+![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/6735126d-abdb-4501-9725-49003fdb5797)
 
+       After performing a gridearch we found more optimal hyperparameters to increase the accuracy of our model. These hyperparameters can be seen in the image above.
+
+       
 ## **Conclusion :** 
 
 We embarked upon this research project with the goal of enhancing the credibility of reviews posted on Yelp primarily concentrating on identifying the appearance of fraudulent reviews. The YelpReviews.ipynb file presents our most recent endeavors, demonstrating a stepping stone towards our dedication to improving the discipline of reviewing identification of fraud, ensuring the integrity of online reviews.
