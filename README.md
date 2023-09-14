@@ -177,4 +177,4 @@ Abhi Borra,	aborra@ucdavis.edu
 Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
 Jaryd Bones,	jbones@ucdavis.edu                                                                                                                 
 Jose Navarro,	janavarro@ucdavis.edu                                                                                                             
-Zhixuan Qiu,	zxqiu@ucdavis.edu
+Zhixuan Qiu,	zxqiu@ucdavis.edu. Work in part of the codes(data exploration and processing), communicated with TA.
