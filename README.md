@@ -172,8 +172,8 @@ In addition, the outcome of our endeavors demonstrates the true value of ongoing
 
 ## **Contributions :**   
 Group members -                                                                                                                                                    
-Abhi Borra,	aborra@ucdavis.edu                                                                                                           
->Contribution:
+Abhi Borra,	Project Lead                                                                                                       
+>Contribution: TF-IDF vectorizer, Hyperparameter tuning, Final Model
 
 Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
 >Contribution:
