@@ -182,6 +182,6 @@ Jose Navarro,	janavarro@ucdavis.edu
 >Contribution:
 
 Zhixuan Qiu,	zxqiu@ucdavis.edu
->Contribution:
+>Contribution: data exploration, evaluated the first model, heatmap, regularization
 
 
