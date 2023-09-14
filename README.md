@@ -1,5 +1,4 @@
-# FakeYelpReviewsDetection
-We are changing the project dataset from Amazon reviews to Yelp reviews. The goal of our project is still the same to detect fake reviews. The YelpReviews.ipynb file has our latest work.                                                                                     
+# FakeYelpReviewsDetection                                                                               
                                                                                                                                       
 Dataset:
 https://www.kaggle.com/datasets/abidmeeraj/yelp-labelled-dataset                                                                                                                                                                          
@@ -119,6 +118,10 @@ Libraries:
      
 **Data Loading**
 
+![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/2929b4c8-c5c0-4eb8-8a34-b1b37d0fd475)
+
+      Loading the data gave use the dataframe depicted above
+
 **Data Exploration**
 
 <img width="500" alt="Screen Shot 2023-09-13 at 11 32 51 AM" src="https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/142265544/47e682a6-8179-4309-afb3-2053465660d3">
@@ -131,11 +134,19 @@ Libraries:
 
 **Data Cleaning**
 
+![image](https://github.com/AbhiramBorra/FakeYelpReviewsDetection/assets/77517310/de7d7229-ea65-4cf7-9b59-c08a1197e7aa)
+
+      After preprocessing our data it looked as it does above.
+
 ### **Machine Learning Models**
       	
 **Neural Network Model (Initial Model)**
 
+       The initial model had a starting accuracy of 0.8669 at the end of the first epoch. During the twenty-third epoch, the model hit its lowesest accuracy of 0.7722. At the end of the final epoch, the model had an accuracy of 0.8787 and a loss of 0.5547.
+
 **Train-Test Split**
+
+       Performing a train-test split gave us two data sets. 90% of the data went into the training set, and the remaining 10% went into the testing set.
 
  **Model Training and Evaluation**
 
@@ -167,6 +178,3 @@ Rohit Singh,	rkssingh@ucdavis.edu
 Jaryd Bones,	jbones@ucdavis.edu                                                                                                                 
 Jose Navarro,	janavarro@ucdavis.edu                                                                                                             
 Zhixuan Qiu,	zxqiu@ucdavis.edu
-
-
-
