@@ -156,7 +156,10 @@ Libraries:
 
        After performing a gridearch we found more optimal hyperparameters to increase the accuracy of our model. These hyperparameters can be seen in the image above.
 
-       
+## **Discussion :** 
+For our data set we decided only to use the text ofhte reviews. other features other than text did not give much information. For example, the username, most were a furst and last name, not much of a diference between real and fake reviews. We wanted to use star rating aswell, but it was difficult to incorporate into our input without crashing our notemboo. We used Term Frequency-Inverse Document Frequency*TF-IDF( and reduced the text of each review, by removing punctuations, function words, conjunctions, capitals, ect, for less computaion and better accuracy. Our original idea was to use DBScan to classify fake review; however, too much of our rem was beign used up , so we decided to use neural networks. Although our model was getting decent results, we used hyperparameter tuning to improve our model. Ultimately our model can detec fake reviews, as long as the fake reviews all have something in common, such as shor reviews like "Great product", but what if the review is real but just looks like a fake review. This is where our model is a bit biased.
+
+
 ## **Conclusion :** 
 
 We embarked upon this research project with the goal of enhancing the credibility of reviews posted on Yelp primarily concentrating on identifying the appearance of fraudulent reviews. The YelpReviews.ipynb file presents our most recent endeavors, demonstrating a stepping stone towards our dedication to improving the discipline of reviewing identification of fraud, ensuring the integrity of online reviews.
