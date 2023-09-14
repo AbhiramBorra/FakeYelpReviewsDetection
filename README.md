@@ -173,7 +173,7 @@ In addition, the outcome of our endeavors demonstrates the true value of ongoing
 ## **Contributions :**   
 Group members -                                                                                                                                                    
 Abhi Borra,	Project Lead                                                                                                       
->Contribution: TF-IDF vectorizer, Hyperparameter tuning, Final Model
+>Contribution: TF-IDF vectorizer, Hyperparameter tuning, K-fold cross-validation, Final Model
 
 Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
 >Contribution:
