@@ -172,21 +172,29 @@ In addition, the outcome of our endeavors demonstrates the true value of ongoing
 
 ## **Contributions :**   
 Group members -                                                                                                                                                    
-Abhi Borra,	Project Lead                                                                                                       
+Abhi Borra,	
+Project Lead,
+
 >Contribution: TF-IDF vectorizer, Hyperparameter tuning, K-fold cross-validation, Final Model
 
-Rohit Singh,	rkssingh@ucdavis.edu, 
+Rohit Singh, 
 ML Project Collaboration and Documentation Writer
 
 >Contribution: Contributions to Model Deployment, Consistently updated the README files, Documented the Experiment Results of our model experiments, Documented the codebase by providing detailed comments, Coordinated discussions and Team Management
 
-Jaryd Bones,	jbones@ucdavis.edu:
+Jaryd Bones,
+Coder and Documentation Writer,
+
 >Contribution: data preprocessing, built initial neural net (before optimizations), histogram, pairplot, confusion matrix, selected dataset
 
-Jose Navarro,	janavarro@ucdavis.edu                                                                                                             
+Jose Navarro,
+Coder and Project Manager,
+
 >Contribution: Cleaned the text of reviews, helped in debugging, thought of the idea for a fake reveiw project
 
-Zhixuan Qiu,	zxqiu@ucdavis.edu
+Zhixuan Qiu,
+Coder and Documentation Writer,
+
 >Contribution: data exploration, evaluated the first model, heatmap, regularization
 
 
