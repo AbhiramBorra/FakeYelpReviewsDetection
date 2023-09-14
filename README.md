@@ -175,8 +175,10 @@ Group members -
 Abhi Borra,	Project Lead                                                                                                       
 >Contribution: TF-IDF vectorizer, Hyperparameter tuning, K-fold cross-validation, Final Model
 
-Rohit Singh,	rkssingh@ucdavis.edu                                                                                                              
->Contribution:
+Rohit Singh,	rkssingh@ucdavis.edu, 
+ML Project Collaboration and Documentation Writer
+
+>Contribution: Contributions to Model Deployment, Consistently updated the README files, Documented the Experiment Results of our model experiments, Documented the codebase by providing detailed comments, Coordinated discussions and Team Management
 
 Jaryd Bones,	jbones@ucdavis.edu:
 >Contribution: data preprocessing, built initial neural net (before optimizations), histogram, pairplot, confusion matrix, selected dataset
